@@ -2,20 +2,20 @@ BVEC:
 
 	init() -- Create a window, start a bvec instance
 
-	push_to_render(u16[] pixel_data) -- push pixel data to be displayed
-
 	end() -- terminate the program
 
 BVEC_BUFFER:
 
-	create(u16 size_x, u16 size_y) -- create an empty framebuffer, this is the logical pixel screen size
+	new(u16 size_x, u16 size_y) -- create an empty framebuffer, this is the logical pixel screen size
 
 	clear_screen(u8 r, u8 g, u8 b, bool visible) -- clear screen with color
 
-	set_pixel(u16 x, u16 y, u8 thickness, u8 r, u8 g, u8 b, bool visible)
+	set_pixel(u16 x, u16 y, u8 r, u8 g, u8 b, bool visible)
 	
-	draw_line(u16 start_x, u16 start_y, u16 end_x, u16 end_y, u8 r, u8 g, u8 b, bool visible)
+	draw_line(u16 start_x, u16 start_y, u16 end_x, u16 end_y, u8 thickness, u8 r, u8 g, u8 b, bool visible)
 
 	draw_char(u16 x, u16 y, u8 font, u8 r, u8 g, u8 b, bool visible)
+
+	draw_string(u16 x, u16 y, u8 font, u8 r, u8 g, u8 b, bool visible)
 
 	draw_poly(vec![u16 x, u16 y] vertices, vec![u16 start_v, u16 end_v] lines, u8 thickness)

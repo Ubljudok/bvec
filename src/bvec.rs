@@ -10,10 +10,10 @@ pub struct BVEC {
 
 impl BVEC {
     pub fn init() {
-
+        todo!();
     }
 
     pub fn end() {
-
+        todo!();
     }
 }

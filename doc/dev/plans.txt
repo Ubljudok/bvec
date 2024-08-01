@@ -1,5 +1,5 @@
 0.0.1_b3:
-	[BVEC-4] Create BVEC and BVEC_BUFFER structs
+	[BVEC-4] Create BVEC and BVEC_BUFFER struct defs
 	[BVEC-5] Frame out API
 	[BVEC-6] Create empty window on BVEC::init()
 	[BVEC-7] Destroy window on BVEC::end()
