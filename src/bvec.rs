@@ -7,3 +7,13 @@ use crate::buffer::BVECBuffer;
 pub struct BVEC {
     buffer: BVECBuffer,
 }
+
+impl BVEC {
+    pub fn init() {
+
+    }
+
+    pub fn end() {
+
+    }
+}
