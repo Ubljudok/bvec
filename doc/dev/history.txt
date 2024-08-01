@@ -1,2 +1,6 @@
+0.0.1_b2
+	[BVEC-2] Create test.rs for future testing
+	[BVEC-3] Plan out API
+
 0.0.1_b1:
 	[BVEC-1] Create Project
