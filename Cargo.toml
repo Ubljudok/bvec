@@ -5,5 +5,5 @@ edition = "2021"
 publish = false
 
 [dependencies]
+minifb = "0.27.0"
 vulkano = "0.34.1"
-winit = "0.30.4"
